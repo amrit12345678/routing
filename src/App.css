@@ -1,6 +1,13 @@
+.logo{
+  min-height: 130px;
+}
+.images{
+  background-color: black;
+}
 .hello{
   text-align: center;
-  
+  background-image: url(./images/bg.jpg);
+  background-size: cover;
 }
 
 .field{
@@ -12,9 +19,9 @@ label{
 }
 
 .loginregister{
-  background-color: green;
-  min-height: 144px;
-  color: white;
+  
+  min-height: 20px;
+  color: black;
 }
 
 .button{
@@ -26,5 +33,9 @@ label{
 .footer{
   min-height: 100px;
   margin-top: 25%;
-  background-color: green;
+  background-color: black;
+}
+
+.card{
+  margin-top: 150px;
 }
