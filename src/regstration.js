@@ -5,7 +5,7 @@ class Form extends Component {
     render() {
         return (
             <div className='hello'>
-                <h1>Register Below</h1>
+                <h1 className='loginregister'>Register Below</h1>
                 <input
                     className='field'
                     type='name'
@@ -37,11 +37,14 @@ class Form extends Component {
                 />
                 <br />
                 <a href='/'>
-                    <button className='field'>
+                    <button className='button btn-success'>
                         Register
                      </button>
                 </a>
                 <br />
+                <footer className='footer'>
+                    
+                </footer>
 
             </div>
         )

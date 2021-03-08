@@ -6,7 +6,7 @@ class Login extends Component {
         return (
             <div className='hello'>
                 <br />
-                <h1>Login Below</h1>
+                <h1 className='loginregister'>Login Below</h1>
                 <input
                     className='field'
                     type='username'
@@ -20,11 +20,15 @@ class Login extends Component {
                 />
                 <br />
                 <a href='/registration'>
-                    <button className='field'>
+                    <button className='button btn-secondary'>
                         Login
                     </button>
                  </a>
-      </div>
+                 <footer className='footer'>
+
+                 </footer>
+
+            </div>
     )
   }
 }
