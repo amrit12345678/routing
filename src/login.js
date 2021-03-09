@@ -30,7 +30,9 @@ class Login extends Component {
                         </div>
                     </div>
                 </div>
-                <footer className='footer'></footer>
+                <footer className='footer'>
+                    
+                </footer>
             </div>
         )
     }
