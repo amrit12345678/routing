@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css'
 import Logo from './images/cauli.jpg';
-class Form extends Component {
+class registration extends Component {
     render() {
         return (
             <div className='hello'>
@@ -43,12 +43,8 @@ class Form extends Component {
                                 placeholder='Password'
                             />
                             <br />
-                            <a href='/'>
-                                <button className='button btn-secondary'>
-                                    Register
-                                </button>
-                            </a>
-
+                            <a href='/'><button className='button btn-secondary'>Register</button></a>
+                            <a href='/home'><button className='button btn-secondary'>home</button></a>
                         </div>
                     </div>
                 </div>
@@ -60,4 +56,4 @@ class Form extends Component {
         )
     }
 }
-export default Form;
+export default registration;

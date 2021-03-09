@@ -25,21 +25,12 @@ class Login extends Component {
                                 placeholder='Password'
                             />
                             <br />
-                            <a href='/registration'>
-                                <button className='button btn-secondary'>
-                                    Login
-                                </button>
-                            </a>
+                            <a href='/registration'> <button className='button btn-secondary'>Login</button></a>
+                            <a href='/home'><button className='button btn-secondary'>home</button></a>
                         </div>
                     </div>
                 </div>
-
-
-
-                <footer className='footer'>
-
-                </footer>
-
+                <footer className='footer'></footer>
             </div>
         )
     }
