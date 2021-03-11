@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Logo from './images/cauli.jpg';
+import {FiShoppingCart} from 'react-icons/fi';
 
 
 class Home extends Component {
@@ -15,24 +16,24 @@ class Home extends Component {
                     <div className='homebtn col-sm-3'>
                         <a href='./'> <button className='button btn-secondary'>Login</button></a>
                         <a href='./registration'><button className='button btn-secondary'>Registration</button></a>
-                        <button className='button btn-secondary'>Add to Cart</button>
+                        <a href='./cart'><button className='button btn-secondary'><FiShoppingCart/></button></a>
                     </div>
                 </div>
                 <div className='gradiant'>
-                    <div className='row'>
-                        <div className='col-sm-2' style={{ textAlign: 'center' }}>
+                    <div className='row NavBar' style={{justifyContent: 'center', paddingTop: '20px', height: '0px'}}>
+                        <div className='col-sm-2 navicon' style={{ textAlign: 'center' }}>
                             <a href=''><h4>Home</h4></a>
                         </div>
-                        <div className='col-sm-2' style={{ textAlign: 'center' }}>
+                        <div className='col-sm-2 navicon' style={{ textAlign: 'center' }}>
                             <a href=''><h4>What's New</h4></a>
-                        </div>
-                        <div className='col-sm-2' style={{ textAlign: 'center' }}>
+                        </div>n
+                        <div className='col-sm-2 navicon' style={{ textAlign: 'center' }}>
                             <a href=''><h4>Products</h4></a>
                         </div>
-                        <div className='col-sm-2' style={{ textAlign: 'center' }}>
+                        <div className='col-sm-2 navicon' style={{ textAlign: 'center' }}>
                             <a href=''><h4>About</h4></a>
                         </div>
-                        <div className='col-sm-2' style={{ textAlign: 'center' }}>
+                        <div className='col-sm-2 navicon' style={{ textAlign: 'center' }}>
                             <a href=''><h4>Contact</h4></a>
                         </div>
                     </div>

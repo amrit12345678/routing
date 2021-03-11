@@ -7,7 +7,7 @@ class Login extends Component {
         return (
             <div className='hello'>
                 <div className='images'>
-                    <img className='logo' src={Logo} />
+                    <a href='/home'><img className='logo' src={Logo} /></a>
                 </div>
                 <div className='forcard' style={{ paddingLeft: '650px' }}>
                     <div className="card" style={{ width: '25rem', borderRadius: '30px' }}>
@@ -31,7 +31,7 @@ class Login extends Component {
                     </div>
                 </div>
                 <footer className='footer'>
-                    
+
                 </footer>
             </div>
         )

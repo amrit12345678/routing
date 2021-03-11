@@ -6,7 +6,7 @@ class registration extends Component {
         return (
             <div className='hello'>
                 <div className='images'>
-                    <img className='logo' src={Logo} />
+                    <a href='/home'><img className='logo' src={Logo} /></a>
                 </div>
                 <div style={{ backgroundImage: '' }} />
                 <div style={{ paddingLeft: '650px' }}>
