@@ -9,10 +9,10 @@ import Peas from './images/peas.jpg';
 import Spinach from './images/spinach.jpg';
 import { FiShoppingCart } from 'react-icons/fi';
 import { FiSearch } from 'react-icons/fi';
-
+import MyVerticallyCenteredModalFunction from './reactModal';
 
 class Home extends Component {
-    render() { 
+    render() {
         return (
 
             <div className='page'>
@@ -20,25 +20,25 @@ class Home extends Component {
                     <div className='logo2 col-sm-4'>
                         <img className='logo' src={Logo} />
                     </div>
-                    <div class="input-group col-sm-4" style={{paddingTop: '23px', justifyContent: 'center'}}>
-                        <div class="form-outline" style={{width:'350px'}}>
-                            <input type="search" id="form1" class="form-control" placeholder='Search'/>
+                    <div class="input-group col-sm-4" style={{ paddingTop: '23px', justifyContent: 'center' }}>
+                        <div class="form-outline" style={{ width: '350px' }}>
+                            <input type="search" id="form1" class="form-control" placeholder='Search' />
                             <label class="form-label" for="form1" />
                         </div>
-                        <button type="button" class="btn btn-secondary" style={{height: '38px', width:'50px'}}>
-                            <i class="fas fa-search"><FiSearch/></i>
+                        <button type="button" class="btn btn-secondary" style={{ height: '38px', width: '50px' }}>
+                            <i class="fas fa-search"><FiSearch /></i>
                         </button>
                     </div>
                     <div className='homebtn col-sm-4'>
                         <a href='./'> <button className='button btn-dark'>Login</button></a>
-                        <a href='./registration'><button className='button btn-outline-dark' style={{}}>Registration</button></a>
+                        <a href='./registration'><button className='button btn-dark' style={{}}>Registration</button></a>
                         <a href='./cart'><button className='button btn-dark'><FiShoppingCart /></button></a>
                     </div>
                 </div>
                 <div className='gradiant'>
                     <div className='row NavBar' style={{ justifyContent: 'center', paddingTop: '20px', height: '0px' }}>
                         <div className='col-sm-2 navicon' style={{ textAlign: 'center' }}>
-                            <a href=''><h4>Home</h4></a>
+                            <a href='/home'><h4>Home</h4></a>
                         </div>
                         <div className='col-sm-2 navicon' style={{ textAlign: 'center' }}>
                             <a href=''><h4>What's New</h4></a>
@@ -59,7 +59,7 @@ class Home extends Component {
                             <div class="card-body">
                                 <h5 class="card-title">Cauli</h5>
                                 <p class="card-text">Fresh Food</p>
-                                <a href="#" class="btn btn-primary">View Product</a>
+                                <MyVerticallyCenteredModalFunction/>
                             </div>
                         </div>
                         <div class="card crds" style={{ width: '18rem' }}>
@@ -67,7 +67,7 @@ class Home extends Component {
                             <div class="card-body">
                                 <h5 class="card-title">Tomato</h5>
                                 <p class="card-text">Fresh Food</p>
-                                <a href="#" class="btn btn-primary">View Product</a>
+                                <MyVerticallyCenteredModalFunction/>
                             </div>
                         </div>
                         <div class="card crds" style={{ width: '18rem' }}>
@@ -75,7 +75,7 @@ class Home extends Component {
                             <div class="card-body">
                                 <h5 class="card-title">Spinach</h5>
                                 <p class="card-text">Fresh Food</p>
-                                <a href="#" class="btn btn-primary">View Product</a>
+                                <MyVerticallyCenteredModalFunction/>
                             </div>
                         </div>
                     </div>
@@ -85,7 +85,7 @@ class Home extends Component {
                             <div class="card-body">
                                 <h5 class="card-title">Egg Plant</h5>
                                 <p class="card-text">Fresh Food</p>
-                                <a href="#" class="btn btn-primary">View Product</a>
+                                <MyVerticallyCenteredModalFunction/>
                             </div>
                         </div>
                         <div class="card crds" style={{ width: '18rem' }}>
@@ -93,7 +93,7 @@ class Home extends Component {
                             <div class="card-body">
                                 <h5 class="card-title">Cabbage</h5>
                                 <p class="card-text">Fresh Food</p>
-                                <a href="#" class="btn btn-primary">View Product</a>
+                                <MyVerticallyCenteredModalFunction/>
                             </div>
                         </div>
                         <div class="card crds" style={{ width: '18rem' }}>
@@ -101,7 +101,7 @@ class Home extends Component {
                             <div class="card-body">
                                 <h5 class="card-title">Peas</h5>
                                 <p class="card-text">Fresh Food</p>
-                                <a href="#" class="btn btn-primary">View Product</a>
+                                <MyVerticallyCenteredModalFunction/>
                             </div>
                         </div>
                     </div>

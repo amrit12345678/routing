@@ -17,15 +17,17 @@ class Login extends Component {
                                 className='field'
                                 type='username'
                                 placeholder='Username'
+                                required
                             />
                             <br />
                             <input
                                 className='field'
                                 type='password'
                                 placeholder='Password'
+                                required
                             />
                             <br />
-                            <a href='/home'> <button className='button btn-secondary'>Login</button></a>
+                            <a href='/home'> <button className='button btn-secondary' onClick='requierd'>Login</button></a>
                             <a href='/registration'><button className='button btn-secondary'>Sign Up</button></a>
                         </div>
                     </div>
